@@ -1,0 +1,32 @@
+.wrapper {max-width: 980px; padding: 10px; margin: auto;}
+.table {border-radius: 10px;}
+.row {width: 100%; }
+.table  .row {padding: 10px; border-top: 2px solid #08088A; font-size: 16px;transition: 0.5s; line-height: 16px; height: 70px;}
+.table  .row.blue {background-color: #81F7D8;}
+.table  .row.gray {background-color: #edeef0;}
+.table  .row:hover {text-shadow: -3px 0px 12px rgba(255, 115, 0, 1);}
+.row .col {float: left;}
+.row .w-1-2 {width: 50%;}
+.row .w-1-3 {width: 33.333%;}
+.row .w-1-4 {width: 25%;}
+.row .w-1-8 {width: 12.5%;}
+.row a {cursor: pointer;}
+.row a.delete {margin:5px;display: inline-block; height: 20px; width: 20px; background-image: url(images/cross.png); background-repeat: no-repeat;  background-size: contain;}
+.row a.edit {margin:5px;display: inline-block; height: 20px; width: 20px; background-image: url(images/pen.png); background-repeat: no-repeat;  background-size: contain;}
+.add_but {margin-top: 15px; padding: 10px;background-color: #FE9A2E; color: #FFF;}
+.controls {text-align: right; vertical-align: top;
+}.controls a img {max-height: 100%; max-width: 100%;}
+.controls a, .controls span {display: inline-block; height: 30px; width: 30px; font-size: 30px;line-height: 40px; border: 2px solid blue; margin: 8px; background-repeat: no-repeat; background-color: gray;}
+.header {background-color: #D8D8D8;  height: 40px;padding: 10px; outline: : 3px solid #000;}
+#prev {transform: rotate(180deg);}
+body.blocked {overflow: hidden;}
+.modal {display: none; position: fixed; width: 100%; height: 100%; background-color: rgba(0,0,0,0.5); top: 0;}
+#add_window form, #edit_window form{border:1px solid #000;margin: auto; width: 600px; background-color: #FFF; border-radius: 10px;padding: 15px; margin-top: 30px;}
+#add_window form input, #edit_window form input {display: block; width: 100%; line-height: 20px;}
+#add_window form button, #edit_window form button {line-height: 20px; padding: 10px;background-color: #FE9A2E; margin-top: 15px;}
+#add_window form p, #edit_window form p {margin-bottom: 5px;}
+
+input[type="checkbox"] {height: 20px;width: 20px;cursor: pointer;}
+
+.row p.fio {font-weight: bold; color:#0B0B61; cursor: pointer;}
+.row p.fio:hover {text-decoration: underline;}
